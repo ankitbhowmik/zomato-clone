@@ -1,0 +1,25 @@
+.stickyFilters{
+    position: sticky;
+    top:0;
+    background-color: white;
+    padding:30px 0;
+    margin-top:0 !important;
+}
+
+.filterChips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.chip{
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.chip:hover{
+    background-color: #f1f1f1;
+}

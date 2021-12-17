@@ -1,0 +1,31 @@
+.tabs{
+    width: 65px;
+    height: 65px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(252, 238, 192);
+}
+
+.tabsContainer{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    color:rgb(239, 79, 95)
+}
+
+.tablist{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    overflow-x: scroll;
+}
+
+.tablist::-webkit-scrollbar{
+    width:0;
+    height:0;
+}
+
+.grayBorderBottom{
+    border-bottom: 0.5px solid #f1f1f1;
+    padding-bottom: 10px;
+}
